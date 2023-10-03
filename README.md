@@ -1,29 +1,27 @@
-# SentimentAnalysisIMDb_TransformerFineTune
-Fine Tuning Transformer (DistilBert, but generic to other models) for MultiClass Text Classification (Sentimental Analysis over IMDb)
+# Virtual-Assistant LLAMA2/OpenAI with specific knowledge (RAG)
+Open-Source RAG with LLaMa 13B (4 bits for less GPU memory), Faiss, HuggingFace and Langchain or with OpenAI
 
 
 ## 🤔 What is this?
-**Description:**  The objective of this script is to fine tune DistilBERT (but generic to severall models) on the IMDb dataset to determine whether a movie review is positive or negative (label 0 "negative", 1 "positive").
+**Description:**  
+In this Poc we'll create a RAG Open-Source solution with **Llama-13b-chat** with HuggingFace embedings, Faiss (Vector DB), all orchestrated by LangChain. Or we could parametrize with OpenAI.
+
+In terms of struture of the solution, we have the main UI in file `RAG_QAw_Parametrization.ipynb` that import all the parametrization (which model, temperature, chain...) from `parametrization.ipynb`  and the core RAG functions from `RAGQA.ipynb`. `RAGQA.ipynb` import also `Parametrization.ipynb`.    
+
+
+**Retrieval Augmented Generation (RAG)** is an advanced Natural Language Processing (NLP) technique that combines both retrieval and generation elements to enhance AI language models' capabilities.
 
 
 ## 📚 Data
 
-We are using IMDb data from datasets library Repository.
-
-Where each row has the following data-point:
-  - label (0 negative, 1 positive)
-  
-  - text		 
-		  
+We can import your own knowledge database with the solution.
 
 
 ##  🚀 Quick Install
 
 
-Due to the power of GPU needed i advise you to use colab with `SentimentAnalysisIMDb_TransformerFineTune.ipynb`(in classification dir)
+Due to the power of GPU needed i advise you to use colab with `RAG_QAw_Parametrization.ipynb`(for Llama2). Need to put your huggingface key
 
-
-Run
 
 
 ## 📖 Documentation
