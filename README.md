@@ -24,7 +24,20 @@ Due to the power of GPU needed i advise you to use colab with `RAG_QAw_Parametri
 
 
 
-## 📖 Documentation
+
+## 📖 Documentation / UI
+
+🧮 **Virtual Assistant Parametrization UI**: 
+<p align="center">
+<img src="docs/VA_Parametrization_UI.png" width="900" > 
+</p>
+
+🧮 **Virtual Assistant Question Anwsering UI**: 
+<p align="center">
+<img src="docs/VA_QA_UI.png" width="900" > 
+</p>
+
+Please see docs dir for full documentation.
 
 Please see the description in .ipynb about this project.
 
@@ -33,4 +46,4 @@ Please see the description in .ipynb about this project.
 
 ##  🚀 Results 
 
-DistilBert training with 25k reviews and testing with other 25k  ajs ~93% acuraccy (with 3 Epochs)
+LLama2 with 4096 token on window prompt show a natural improvement in VA Open Source
