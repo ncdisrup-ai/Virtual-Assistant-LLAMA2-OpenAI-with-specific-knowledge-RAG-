@@ -37,8 +37,6 @@ Due to the power of GPU needed i advise you to use colab with `RAG_QAw_Parametri
 <img src="docs/VA_QA_UI.png" width="900" > 
 </p>
 
-Please see docs dir for full documentation.
-
 Please see the description in .ipynb about this project.
 
 
